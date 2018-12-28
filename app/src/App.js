@@ -48,13 +48,15 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
     return (
-      <div style={{height: '100%'}}>
+      <div className="container-fluid">
         <Router>
           <div>
-            <Toolbar drawerClickHandler={this.drawerToggleClickHandler} links={links}/>
+            <div className="row">
+              <Toolbar drawerClickHandler={this.drawerToggleClickHandler} links={links}/>
+            </div>
             <SideDrawer show={this.state.sideDrawerOpen} click={this.drawerToggleClickHandler} links={links}/>
 
-            <main>
+            <main className="row">
               <Route exact path="/" component={Home}/>
               <Route path="/program" component={Program}/>
               <Route path="/wedding" component={Wedding}/>
