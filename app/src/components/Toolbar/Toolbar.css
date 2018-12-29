@@ -17,17 +17,30 @@
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  justify-content: ;
 }
 
 .toolbar_navigation-items ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
 .toolbar_navigation-items li {
-  padding: 0 0.5rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .toolbar_navigation-items a {
@@ -38,4 +51,15 @@
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
   color: #fa923f;
+}
+
+
+@media (min-width: 768px) {
+
+  .toolbar__title a {
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 0;
+  }
+
 }
