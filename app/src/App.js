@@ -48,19 +48,19 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
     return (
-      <div className="container-fluid">
+      <div className="">
         <Router>
           <div>
-            <div className="row">
+            <div className="">
               <Toolbar drawerClickHandler={this.drawerToggleClickHandler} links={links}/>
             </div>
             <SideDrawer show={this.state.sideDrawerOpen} click={this.drawerToggleClickHandler} links={links}/>
 
-            <main className="row">
-              <Route exact path="/" component={Home}/>
-              <Route path="/program" component={Program}/>
-              <Route path="/wedding" component={Wedding}/>
-              <Route path="/party" component={Party}/>
+            <main className="">
+                <Route exact path="/" component={Home}/>
+                <Route path="/program" component={Program}/>
+                <Route path="/wedding" component={Wedding}/>
+                <Route path="/party" component={Party}/>
             </main>
 
           </div>
