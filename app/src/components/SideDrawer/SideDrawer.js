@@ -14,7 +14,9 @@ const sideDrawer = props => {
       </button>
       <ul>
         <span onClick={props.click}>
-          {props.links}
+           {props.links.map((link) => (
+             <li>{link}</li>
+           ))}
         </span>
       </ul>
     </nav>

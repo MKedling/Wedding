@@ -18,7 +18,9 @@ const toolbar = props => {
 
           <div className="toolbar_navigation-items d-none d-md-block">
             <ul className="flexcontainer">
-              {props.links}
+              {props.links.map((link) => (
+                <li>{link}</li>
+              ))}
             </ul>
           </div>
 

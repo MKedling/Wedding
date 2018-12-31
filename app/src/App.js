@@ -11,6 +11,11 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 
+// https://icons8.com/icon/set/party/ios
+import imageMap from './images/icons8-treasure-map-100.png';
+import imageParty from './images/icons8-party-balloons-100.png';
+import imageAgenda from './images/icons8-checklist-100.png';
+import imageWedding from './images/kyrka.jpg';
 
 
 class App extends Component {
@@ -18,10 +23,10 @@ class App extends Component {
   state = {
     sideDrawerOpen: false,
     navLinks : [
-      {to: '/',           displayName: 'Hem'},
-      {to: '/program',    displayName: 'Program'},
-      {to: '/wedding',    displayName: 'Vigsel'},
-      {to: '/party',      displayName: 'Fest'}
+      {to: '/',           displayName: 'Hem', image: imageMap},
+      {to: '/program',    displayName: 'Program', image: imageAgenda},
+      {to: '/wedding',    displayName: 'Vigsel', image: imageWedding},
+      {to: '/party',      displayName: 'Fest', image: imageParty}
     ]
   };
 
@@ -37,10 +42,7 @@ class App extends Component {
 
   render() {
 
-    const links = this.state.navLinks.map((link) =>
-      <li className="nav-item">
-        <Link key={link.key} to={link.to} className="nav-link">{link.displayName}</Link>
-      </li>);
+    const links = this.state.navLinks.map((link) => <Link key={link.key} to={link.to} className="nav-link">{link.displayName}</Link>);
 
     let backdrop;
 
@@ -57,7 +59,8 @@ class App extends Component {
             <SideDrawer show={this.state.sideDrawerOpen} click={this.drawerToggleClickHandler} links={links}/>
 
             <main className="">
-                <Route exact path="/" component={Home}/>
+
+                <Route exact path="/"  render={(props) => <Home {...props} navLinks={this.state.navLinks} />} />
                 <Route path="/program" component={Program}/>
                 <Route path="/wedding" component={Wedding}/>
                 <Route path="/party" component={Party}/>
