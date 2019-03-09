@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css'
 
 class Home extends Component {
+
     render ()
     {
 
@@ -9,13 +10,13 @@ class Home extends Component {
 
           <div className="home">
 
-            {this.props.navLinks.map((link) => (
+            {this.props.navLinks.filter(e => e.name !== "home").map((link) => (
               <article className="jumbotron text-center">
 
                 <div className="view overlay my-2">
                   <a href={link.to}>
-                    <img src={link.image} className="img-fluid" alt="" />
                     <div className="mask rgba-white-slight"><span className="link-name">{link.displayName}</span></div>
+                    <img src={link.image} className="img-fluid" alt="" />
                   </a>
                 </div>
 

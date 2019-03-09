@@ -59,6 +59,10 @@
   color: #fa923f;
 }
 
+.toolbar__title a {
+  margin-left: -30px;
+}
+
 
 @media (min-width: 768px) {
 
