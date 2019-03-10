@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64c77e2-bb0e-41d3-8a34-eb7d71d6db65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/History.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Party.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Party.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/pages/Practical.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Practical.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/pages/Wedding.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Wedding.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wednotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wednotes.txt" afterDir="false" />
@@ -77,13 +74,13 @@
         <counts>
           <entry key="css" value="1398" />
           <entry key="dummy" value="5" />
-          <entry key="js" value="4186" />
+          <entry key="js" value="4191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1398" />
-          <entry key="JavaScript" value="4186" />
+          <entry key="JavaScript" value="4191" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -169,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/pages/Wedding.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="870">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -193,8 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pages/Practical.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="47" column="141" selection-start-line="47" selection-start-column="141" selection-end-line="47" selection-end-column="141" />
+            <state relative-caret-position="-2">
+              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -214,7 +211,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pages/History.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
@@ -264,13 +261,13 @@
         <option value="$PROJECT_DIR$/app/src/pages/Home.js" />
         <option value="$PROJECT_DIR$/app/src/components/Toolbar/Toolbar.css" />
         <option value="$PROJECT_DIR$/app/src/pages/Program.js" />
-        <option value="$PROJECT_DIR$/app/src/pages/Practical.js" />
         <option value="$PROJECT_DIR$/app/src/pages/Party.js" />
         <option value="$PROJECT_DIR$/app/src/App.js" />
-        <option value="$PROJECT_DIR$/app/src/pages/Wedding.js" />
         <option value="$PROJECT_DIR$/app/src/pages/History.css" />
         <option value="$PROJECT_DIR$/app/src/index.css" />
         <option value="$PROJECT_DIR$/app/src/pages/History.js" />
+        <option value="$PROJECT_DIR$/app/src/pages/Practical.js" />
+        <option value="$PROJECT_DIR$/app/src/pages/Wedding.js" />
       </list>
     </option>
   </component>
@@ -351,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552242282825" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552249542660" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,15 +398,15 @@
       <workItem from="1546162042714" duration="19461000" />
       <workItem from="1546367012455" duration="22000" />
       <workItem from="1546415209438" duration="616000" />
-      <workItem from="1552131895013" duration="23300000" />
+      <workItem from="1552131895013" duration="25771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75927000" />
+    <option name="totallyTimeSpent" value="78398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="35" width="3706" height="2125" extended-state="7" />
+    <frame x="134" y="35" width="3706" height="2125" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88906837" visible="true" weight="0.21282476" />
@@ -632,26 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/Wedding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/Practical.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="47" column="141" selection-start-line="47" selection-start-column="141" selection-end-line="47" selection-end-column="141" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/History.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -680,6 +657,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/Practical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/Wedding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -13,7 +13,7 @@ För att byta version och "cleana"
 npm i -g npm
 npm cache clean --force
 rm -rf node_modules
-npm install
+nvm install 8.10
  
 
 Npm
@@ -29,5 +29,8 @@ Run react in background
 screen -S wed npm start
 ctrl + A, D  för att detatcha 
 screen -X -S wed quit
+
+Load balancing
+https://medium.com/tfogo/how-to-serve-your-website-on-port-80-or-443-using-aws-load-balancers-a3b84781d730
 
 

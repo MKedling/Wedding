@@ -45,7 +45,7 @@ class Practical extends Component {
               <div>
                 <h2>Önskelista</h2>
                 <p>
-                  Att ni kommer och delar vår dag med oss är den största gåvan. För er som ändå vill ge oss en gåva så kommer ne önskelista inom kort.
+                  Att ni kommer och delar vår dag med oss är den största gåvan. För er som ändå vill ge oss en gåva så kommer en önskelista inom kort.
                 </p>
               </div>
 

@@ -22,13 +22,12 @@ class Wedding extends Component {
             <div>
               <h2>Vigsel</h2>
               <p>
-                Vigsel sker i Lovö kyrka Lördagen den 27 Juli kl 14.30. Större sällskap utan bil åker taxi från brommaplan för en billig peng. Mindre sällskap kommer erbjudas möjlighet att åka med någon som passerar brommaplan med bil.
+                Vigsel sker i Lovö kyrka lördagen den 27 Juli kl 14.30. Större sällskap utan bil åker taxi från Brommaplan för en billig peng. Mindre sällskap kommer erbjudas möjlighet att åka med någon som passerar brommaplan med bil.
               </p>
 
             </div>
 
           </article>
-
 
         </div>
       </div>
