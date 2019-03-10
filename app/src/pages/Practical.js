@@ -30,7 +30,7 @@ class Practical extends Component {
               <div>
                 <h2>Tal</h2>
                 <p>
-                  Vill du hålla tal eller göra någotnting annat roligt under middagen så hör du av dig till vår toastmaster David på email david_solberger@hotmail.com.
+                  Vill du hålla tal eller göra någonting annat roligt under middagen så hör du av dig till vår toastmaster David på email david_solberger@hotmail.com.
                 </p>
               </div>
 
@@ -45,7 +45,7 @@ class Practical extends Component {
               <div>
                 <h2>Önskelista</h2>
                 <p>
-                  Att ni kommer och delar vår dag med oss är den största gåvan. För er som ändå vill ge oss en gåva
+                  Att ni kommer och delar vår dag med oss är den största gåvan. För er som ändå vill ge oss en gåva så kommer ne önskelista inom kort.
                 </p>
               </div>
 

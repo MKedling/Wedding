@@ -20,7 +20,7 @@ class Party extends Component {
               <div>
                 <h2>FEST</h2>
                 <p>
-                  Efter vigseln välkommnas ni till Ekebyhovs slott. Här blir det mingel med tilltugg följt av 3-rätters middag. Efter maten bjuds det till fest med öppen bar. Frammåt midnatt serveras vickning.
+                  Efter vigseln välkomnas ni till Ekebyhovs slott. Här blir det mingel med tilltugg följt av 3-rätters middag. Efter maten bjuds det till fest med öppen bar. Framåt midnatt serveras vickning.
                 </p>
               </div>
               <div>

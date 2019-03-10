@@ -9,6 +9,12 @@ sudo yum install openssl-devel
 Node (måste detta göras??)
 wget https://nodejs.org/dist/v10.15.3/node-v10.15.3.tar.gz
 tar -xvf node-v10.15.3.tar.gz
+För att byta version och "cleana"
+npm i -g npm
+npm cache clean --force
+rm -rf node_modules
+npm install
+ 
 
 Npm
 https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
@@ -21,4 +27,7 @@ scp -i Wedding/wed.pem wedding.gz  ec2-user@ec2-13-53-134-86.eu-north-1.compute.
 
 Run react in background
 screen -S wed npm start
+ctrl + A, D  för att detatcha 
+screen -X -S wed quit
+
 

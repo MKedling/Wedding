@@ -1,22 +1,36 @@
 import React, {Component} from 'react';
 import './Wedding.css'
-import imageWedding from './../images/kyrka.jpg';
+import image from './../images/kyrka.jpg';
 
 class Wedding extends Component {
   render() {
     return (
       <div className="content wedding center">
 
-        <article className="jumbotron text-center">
-          <div className="view overlay my-2">
-            <img src={imageWedding} className="img-fluid" alt="" />
-            <h2>VIGSEL</h2>
-            <p>
-              Vigseln sker i Lovö kyrka
-            </p>
+        <div className="content practical center">
 
-          </div>
-        </article>
+          <article className="jumbotron text-center">
+            <div className="view overlay my-2">
+                <span>
+                  <img src={image} className="img-fluid" alt=""/>
+                </span>
+            </div>
+          </article>
+
+          <article className="content-text">
+
+            <div>
+              <h2>Vigsel</h2>
+              <p>
+                Vigsel sker i Lovö kyrka Lördagen den 27 Juli kl 14.30. Större sällskap utan bil åker taxi från brommaplan för en billig peng. Mindre sällskap kommer erbjudas möjlighet att åka med någon som passerar brommaplan med bil.
+              </p>
+
+            </div>
+
+          </article>
+
+
+        </div>
       </div>
     );
   }
