@@ -13,15 +13,24 @@ class Party extends Component {
                 <span>
                   <img src={image} className="img-fluid" alt="" />
                 </span>
-                <div class="content-text">
-                  <h2>FEST</h2>
-                  <p>
-                    Festen sker på Ekebyhovs slott
-                  </p>
-                </div>
-
               </div>
             </article>
+
+            <article className="content-text">
+              <div>
+                <h2>FEST</h2>
+                <p>
+                  Efter vigseln välkommnas ni till Ekebyhovs slott. Här blir det mingel med tilltugg följt av 3-rätters middag. Efter maten bjuds det till fest med öppen bar. Frammåt midnatt serveras vickning.
+                </p>
+              </div>
+              <div>
+                <h2>Spellista</h2>
+                <p>
+                  Önska gärna låtar till spellistan för att vara säker på att just din låt kommer spelas. Maila ditt önskemål till sara.solberger@hotmail.com.
+                </p>
+              </div>
+            </article>
+
           </div>
 
         );

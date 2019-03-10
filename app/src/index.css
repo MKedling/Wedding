@@ -36,6 +36,19 @@ main .jumbotron{
   background-color: white;
 }
 
+article.content-text{
+  margin: 3em;
+}
+
+article.content-text div{
+  margin: 2em 0em;
+}
+
+article.content-text ul {
+  list-style-type:none;
+  padding: 0em;
+}
+
 
 @media (min-width: 768px) {
 

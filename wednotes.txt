@@ -18,3 +18,7 @@ https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle
 
 scp
 scp -i Wedding/wed.pem wedding.gz  ec2-user@ec2-13-53-134-86.eu-north-1.compute.amazonaws.com:~/.
+
+Run react in background
+screen -S wed npm start
+
