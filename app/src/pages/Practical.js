@@ -45,7 +45,10 @@ class Practical extends Component {
               <div>
                 <h2>Önskelista</h2>
                 <p>
-                  Att ni kommer och delar vår dag med oss är den största gåvan. För er som ändå vill ge oss en gåva så kommer en önskelista inom kort.
+                  <p>Att ni kommer och delar vår dag med oss är den största gåvan.</p>
+                  <p>För er som ändå vill ge oss en gåva så  är vi är registrerade på <a href="https://www.svenskttenn.se">Svenskt tenn</a>, önskelistan finns i butiken.</p>
+                  <p>Vi är även registrerad på Cervera, här hittar ni <a href="https://www.cervera.se/onskelista/jvwd9b7d">önskelistan</a></p>
+                  <p>Vi uppskattar även roliga upplevelser eller något gott att äta eller dricka.</p>
                 </p>
               </div>
 
